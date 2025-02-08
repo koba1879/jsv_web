@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joseph S. Van Horn - Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Joseph S. Van Horn</h1>
+      <p>A DVISER * ADVOCATE * AGENT</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero contact-hero">
+    <div class="container">
+      <h1>Contact Me</h1>
+      <p>I'd love to hear from you</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <div class="container">
+    <section class="contact">
+      <h2>Get In Touch</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+      
+      <div class="contact-info">
+        <h3>Other Ways to Reach Me</h3>
+        <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p><strong>Phone:</strong> (XXX) XXX-XXXX</p>
+        <p><strong>Social:</strong> 
+          <a href="#">LinkedIn</a> | 
+          <a href="#">Twitter</a> | 
+          <a href="#">Facebook</a>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Joseph S. Van Horn. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
